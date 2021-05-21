@@ -2,7 +2,7 @@ import unittest
 
 import allure
 
-from iInterface_test.library.httpclient import HttpClient
+from library.httpclient import HttpClient
 
 
 @allure.feature("测试 Weather APi")
