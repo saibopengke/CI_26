@@ -10,6 +10,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 
 
+@allure.feature("UI自动化测试")
 class Selenium(unittest.TestCase):
 
     def get_config(self):
